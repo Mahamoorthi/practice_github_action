@@ -24,3 +24,4 @@ jobs:
           body: ${{ github.job }} job in workflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
 
           to: mahagowri09@gmail.com
+          from: maha lakshmi
