@@ -1,0 +1,10 @@
+name: sample
+on: push
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print sample python
+        run: echo "sample python"
