@@ -1,0 +1,20 @@
+name: Run sample from py script
+on: push
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: chcecout code
+        uses: actions/checkout@v6
+
+      - name: setup python
+        uses: actions/checkout@v6
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: run a sample python code
+        run: python sample_world.py
+  
